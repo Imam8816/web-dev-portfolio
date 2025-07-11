@@ -166,3 +166,25 @@ color: #474747;
   .resume-download-cv{
 margin-top: 30px;
   }
+
+  /* footer style  */
+  footer{
+    display: flex;
+     padding: 130px 230px;
+    gap: 100px; 
+  }
+  .footer-column{
+width: 50%;
+  }
+
+  footer input[type="text"] , [type="email"], textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    color: #757575;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+  }
